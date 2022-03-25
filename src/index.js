@@ -5,9 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode> // phải bỏ strict mode nếu không alert sẽ xuất hiện 2 lần cũng 1 lúc
+    <App />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
